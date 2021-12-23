@@ -420,4 +420,173 @@ h1, h2, h3, h4, h5, h6 {
 .menu__list-link:hover {
   color: #3C82F4;
 }
+
+.expert__title {
+  text-align: center;
+}
+
+.expert__img {
+  margin-top: 50px;
+}
+
+.expert__img img {
+  width: 100%;
+}
+
+.expert__audit {
+  position: relative;
+  min-height: 800px;
+  margin-top: 175px;
+  text-align: center;
+  background-image: url("../img/marico-audit.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.expert__audit-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50%;
+  width: 886px;
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: 175px;
+  margin-bottom: 35px;
+}
+
+.footer__info {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer__title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 73px;
+  line-height: 150px;
+  color: #fff;
+}
+
+.footer__subtitle {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 6px;
+  color: #fff;
+}
+
+.footer__btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  width: 400px;
+  height: 92px;
+  background-color: #326CF9;
+  text-align: center;
+  line-height: 102px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.footer__mail {
+  display: block;
+  color: #707070;
+}
+
+.footer__finish {
+  margin-top: 175px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__menu {
+  display: flex;
+}
+
+.footer__menu-item {
+  margin-right: 45px;
+}
+
+.footer__menu-link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 42px;
+  color: #707070;
+}
+
+.hover_blue a:hover {
+  color: #326DF9;
+  transition: 0.5s all;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.loader li {
+  margin: 0 10px;
+  width: 6px;
+  height: 30px;
+  background-color: #326CF9;
+  animation: load 1.4s infinite;
+}
+
+@keyframes load {
+  0% {
+    transform: scaleY(1);
+  }
+  25% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+  75% {
+    transform: scaleY(1);
+  }
+  100% {
+    transform: scaleY(3);
+  }
+}
+
+.loader li:nth-child(1) {
+  animation-delay: .1s;
+}
+
+.loader li:nth-child(2) {
+  animation-delay: .2s;
+}
+
+.loader li:nth-child(3) {
+  animation-delay: .3s;
+}
+
+.loader li:nth-child(4) {
+  animation-delay: .4s;
+}
+
+.loader li:nth-child(5) {
+  animation-delay: .5s;
+}
+
+.loader li:nth-child(6) {
+  animation-delay: .6s;
+}
 /*# sourceMappingURL=style.css.map */

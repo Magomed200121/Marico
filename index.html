@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Marico</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,15 +22,24 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+
+   <!--  <ul class="loader">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul> -->
     <header class="header">
       <div class="container">
         <div class="header__main">
-          <a href="#!" class="logo">
+          <a href="#!" class="logo ">
             <img src="./img/marico-logo.png" alt="logo" />
             <span class="logo__text"> Marico </span>
           </a>
-          <nav class="menu">
-            <ul class="menu__list">
+          <nav class="menu ">
+            <ul class="menu__list hover_blue">
               <li class="menu__list-item">
                 <a href="#!" class="menu__list-link"> Use Cases </a>
               </li>
@@ -41,7 +54,7 @@
               </li>
             </ul>
           </nav>
-          <div class="header__btns">
+          <div class="header__btns ">
             <a href="#!" class="header__login"> Login </a>
             <a href="#!" class="header__signup btn"> Sign Up </a>
           </div>
@@ -51,8 +64,8 @@
 
     <section class="main">
       <div class="container">
-        <h1 class="main__title">Own your audience.</h1>
-        <h2 class="main__subtitle">So you don't lose them.</h2>
+        <h1 class="main__title animate__animated animate__fadeIn">Own your audience.</h1>
+        <h2 class="main__subtitle animate__animated animate__fadeIn">So you don't lose them.</h2>
         <p class="main__text">
           Turn your audience into email and text message subscribers.
         </p>
@@ -71,7 +84,7 @@
       </div>
     </section>
 
-    <section class="creator">
+    <section class="creator wow animate__animated animate__fadeIn">
       <div class="container">
         <h2 class="creator__title title">Why Creators Love Marico</h2>
         <div class="creator__why">
@@ -114,7 +127,7 @@
       </div>
     </section>
 
-    <section class="steps">
+    <section class="steps wow animate__animated animate__fadeIn">
       <div class="container">
         <div class="steps__content">
           <h4 class="step">STEP 1</h4>
@@ -126,7 +139,7 @@
           <a href="#!" class="steps__btn"> View Avaliable Sources </a>
         </div>
 
-        <div class="steps__info">
+        <div class="steps__info wow animate__animated animate__fadeIn">
           <div class="steps__element">
             <h5 class="steps__element-text">Your Homepage</h5>
             <h2 class="steps__element-title title">
@@ -150,7 +163,7 @@
           </div>
         </div>
 
-        <div class="steps__content">
+        <div class="steps__content wow animate__animated animate__fadeIn">
           <h4 class="step">STEP 2</h4>
           <h2 class="steps__title title">Share Your Homepage</h2>
           <p class="steps__text">
@@ -159,34 +172,125 @@
           </p>
         </div>
 
-        <div class="steps__start">
+        <div class="steps__start wow animate__animated animate__fadeIn">
           <div class="steps__start-item">
-            <h6 class="steps__start-title">
-              One Link
-            </h6>
+            <h6 class="steps__start-title">One Link</h6>
             <h2 class="title steps__start-subtitle">
               <span class="main_color">ALL You Create.</span>
               One Link
             </h2>
             <div class="steps__start-img">
-              <img src="./img/marico-mobile.png" alt="mobile">
+              <img src="./img/marico-mobile.png" alt="mobile" />
             </div>
           </div>
 
           <div class="steps__start-item">
-            <h6 class="steps__start-title">
-              Collect Subscribers
-            </h6>
+            <h6 class="steps__start-title">Collect Subscribers</h6>
             <h2 class="title steps__start-subtitle">
               <span class="main_color">Emails.Phone #s.</span>
               All Yours.
             </h2>
           </div>
         </div>
-        <a href="#!" class="steps__start-get">
-          Get Started
-        </a>
+        <a href="#!" class="steps__start-get"> Get Started </a>
+
+        <div class="steps__content wow animate__animated animate__fadeIn">
+          <h4 class="step">STEP 3</h4>
+          <h2 class="steps__title title">Send Emails & Text Messages</h2>
+          <p class="steps__text">
+            No more going through a social platform. Reach and engage your
+            audience directly over email and text massage.
+          </p>
+        </div>
+
+        <div class="steps__info wow animate__animated animate__fadeIn">
+          <div class="steps__element">
+            <h5 class="steps__element-text">Create & Share</h5>
+            <h2 class="steps__element-title title">
+              Reach Your Audience<span>Directly.</span>
+            </h2>
+            <ul class="steps__element-nav">
+              <li class="steps__element-nav-item">
+                Embed content or create something new to share.
+              </li>
+              <li class="steps__element-nav-item">
+                Share content over email, text message or your homepage.
+              </li>
+            </ul>
+            <div class="steps__element-btns">
+              <a href="#!" class="steps__element-get"> Get Started Now </a>
+              <a href="#!" class="steps__element-view"> View A Demo </a>
+            </div>
+          </div>
+          <div class="steps__element-img">
+            <img src="./img/marico-blackpink.png" alt="" />
+          </div>
+        </div>
       </div>
     </section>
+
+    <section class="expert wow animate__animated animate__fadeIn">
+      <div class="container">
+        <div class="expert__title title">Experts Agree</div>
+        <div class="expert__img">
+          <img src="./img/marico-expert.png" alt="expert-img" />
+        </div>
+      </div>
+      <div class="expert__audit">
+        <h2 class="expert__audit-title title">
+          We've helped over 1,000 creatorsre claim control of their audience.
+        </h2>
+      </div>
+    </section>
+
+    <footer class="footer wow animate__animated animate__fadeIn">
+      <div class="container">
+        <div class="footer__info">
+          <img src="./img/marico-footer-logo.svg" alt="footer-logo" />
+          <h2 class="footer__title">Get Started Now</h2>
+          <h3 class="footer__subtitle">
+            Setup is easy and takes under 5 minutes.
+          </h3>
+          <a href="#!" class="footer__btn"> Get Started Now </a>
+          <div class="main__subtext">
+            <div class="main__dot">
+              <img src="./img/marico-dot.png" alt="dot" />
+            </div>
+            <div class="main__descr">
+              <span>1000+</span> creators have already started
+            </div>
+          </div>
+        </div>
+        <div class="footer__finish">
+          <div class="footer__finish-logo">
+            <a href="#!" class="logo">
+              <img src="./img/marico-logo.png" alt="logo" />
+              <span class="logo__text"> Marico </span>
+              <a href="mailto:info@marico.co" class="footer__mail">
+                info@marico.co
+              </a>
+            </a>
+          </div>
+
+          <ul class="footer__menu hover_blue">
+            <li class="footer__menu-item">
+              <a href="#!" class="footer__menu-link">About</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#!" class="footer__menu-link">Pricing</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#!" class="footer__menu-link">Blog</a>
+            </li>
+            <li class="footer__menu-item">
+              <a href="#!" class="footer__menu-link">Sign in</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
